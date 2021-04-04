@@ -5,7 +5,7 @@ function submitData(name, email) {
       };
        
       let configObj = {
-          method: "POST",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json"
@@ -32,3 +32,4 @@ function submitData(name, email) {
 } 
 
 
+// submitData('Romano', "romano@outlook.com");
